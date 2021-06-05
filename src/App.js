@@ -249,7 +249,7 @@ const App = () => {
 
   return (
     <div>
-      <div style={{ position: "fixed" }}>
+      <div className="inputs" style={{ position: "fixed" }}>
         <input
           type="radio"
           id="line"
@@ -279,7 +279,7 @@ const App = () => {
           <i className="fas fa-undo"></i>
         </button>
         <button className="button2" onClick={() => redo()}>
-          <i className="fas fa-redo-alt"></i>
+          <i className="fas fa-redo-alt" aria-hidden="true"></i>
         </button>
       </div>
       <canvas

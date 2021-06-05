@@ -1,4 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 6vh;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: hsla(0, 0%, 100%, 0.96);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.inputs > input {
+  display: flex;
+  margin-left: 10%;
+}
+
+.inputs > label {
+  margin: 0;
+}
+
 .buttons {
   display: flex;
   flex-direction: row;
@@ -25,7 +47,7 @@
   border-color: #e9ecef;
 }
 
-.fa-undo {
+.fa {
   color: #181818;
 }
 
