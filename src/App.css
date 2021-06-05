@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+.buttons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  width: 6%;
+  height: 4vh;
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+  background-color: hsla(0, 0%, 100%, 0.96);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.buttons > button {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 45%;
+  height: 2.5rem;
+  align-items: center;
+  background-color: #e9ecef;
+  font-family: "Nunito", sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: #e9ecef;
 }
 
-.App-link {
-  color: #61dafb;
+.fa-undo {
+  color: #181818;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button1 {
+  margin-right: 0.5rem;
 }
